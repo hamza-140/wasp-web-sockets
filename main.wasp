@@ -21,7 +21,7 @@ app whereDoWeEat {
     system: PostgreSQL
   },
   webSocket: {
-    fn: import { webSocketFn } from "@src/server/ws-server.js",
+    fn: import { setupWebSocket } from "@server/websocket.js",
   }
 }
 
