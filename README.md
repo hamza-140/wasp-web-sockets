@@ -43,3 +43,9 @@ wasp start
 ```
 
 Check out the `src/server/websocket.ts` and `src/client/pages/MainPage.tsx` to see how Websockets are used in Wasp.
+
+## Need Help?
+
+Wasp Docs: https://wasp-lang.dev/docs
+
+Feel free to join our [Discord server](https://discord.gg/rzdnErX) and ask questions there. We are happy to help!
