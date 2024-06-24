@@ -2,13 +2,21 @@
 
 This is an example Websockets app built with Wasp.
 
-It includes auth and a voting system.
+[![wasp websockets app](image.png)](https://www.youtube.com/watch?v=Twy-2P0Co6M)
+
+This app also includes Wasp's integrated auth and a voting system (again, neat!).
 
 ## Running the app
 
+_If you get stuck at any point, feel free to join our [Discord server](https://discord.gg/rzdnErX) and ask questions there. We are happy to help!_
+
+Download and install Wasp
+
 ```bash
-cd websockets-wasp
+curl -sSL https://get.wasp-lang.dev/installer.sh | sh
 ```
+
+Clone this repo...
 
 ```bash
 git clone https://github.com/wasp-lang/websockets-example-app.git

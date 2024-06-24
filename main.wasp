@@ -17,11 +17,8 @@ app whereDoWeEat {
     ("flowbite", "1.6.6"),
     ("flowbite-react", "0.4.9")
   ],
-  db: {
-    system: PostgreSQL
-  },
   webSocket: {
-    fn: import { webSocketFn } from "@server/websocket.js",
+    fn: import { webSocketFn } from "@server/ws-server.js",
   }
 }
 
